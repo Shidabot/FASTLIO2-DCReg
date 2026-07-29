@@ -2,6 +2,8 @@
 
 A ROS1 LiDAR-inertial odometry and mapping system based on FAST-LIO2. It supports Livox, Velodyne, Ouster, and other LiDAR sensors, with an integrated degeneracy-aware update for low-constraint scenes such as corridors, tunnels, large planes, and sparse environments.
 
+This repository is an engineering integration and test project based on [FAST_LIO](https://github.com/hku-mars/FAST_LIO) and [DCReg](https://github.com/JokerJohn/DCReg/tree/main).
+
 The runnable ROS package is located in [`FAST_LIO-main`](FAST_LIO-main/).
 
 ## Features
@@ -171,4 +173,4 @@ FASTLIO2-DCReg/
 
 ## Credits
 
-This project is based on FAST-LIO/FAST-LIO2 from HKU MARS Lab and uses ikd-Tree for incremental nearest-neighbor search. Please follow the licenses and citation requirements of the original projects and their dependencies.
+This project builds on [FAST_LIO](https://github.com/hku-mars/FAST_LIO) from HKU MARS Lab, integrates the degeneracy-aware method from [DCReg](https://github.com/JokerJohn/DCReg/tree/main), and uses ikd-Tree for incremental nearest-neighbor search. Please follow the licenses and citation requirements of the original projects and their dependencies.
